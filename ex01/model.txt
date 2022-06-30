@@ -1,0 +1,26 @@
+Modelo da agenda:
+
+Artur,999328951,4,5
+Claudia,999328955,27,3
+Marcelo,998994567,29,7
+
+Struct contato {
+	char* nome,
+	char[COMPRIMENTO_TEL],
+	unsigned short dia,
+	unsigned short mes,
+}
+
+CRUD
+
+deleteContactByName(contato contatos[DYNAMIC_LENGTH], char* name)
+ListContacts(contato Contatos)
+searchByFirstLetterName(contato Contatos[DYNAMIC_LENGTH], char letter)
+searchByBirthdaysOnMonth(contato Contatos[DYNAMIC_LENGTH], unsiged short)
+
+loadContacts(char* filename, contato contatos[DYNAMIC_LENGTH])
+	loadContactByData(char*, char[], uint, uint)
+
+saveContacts(char* filename);
+	writeContact(char* filename, Struct contato)
+
